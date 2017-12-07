@@ -51,7 +51,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Storyboard text." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vZL-1t-mbz">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Storyboard text." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vZL-1t-mbz">
                                 <rect key="frame" x="32" y="98" width="311" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

@@ -40,4 +40,12 @@
 	_theTextView.text = _reallyLongText;
 }
 
+// dismiss keyboard on touch
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	UITouch * touch = [touches anyObject];
+	if(touch.phase == UITouchPhaseBegan) {
+		[_theTextView resignFirstResponder];
+	}
+}
+
 @end
